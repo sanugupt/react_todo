@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Philosopher&display=swap");
+body {
+  font-family: "Neucha", cursive;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.taskify_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(72, 139, 165);
+}
+.taskify_container .taskify_sec {
+  max-width: 500px;
+  width: 100%;
+}
+.taskify_container .taskify_sec .heading {
+  position: relative;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1;
+}
+.taskify_container .taskify_sec .input_block {
+  display: block;
+  position: relative;
+}
+.taskify_container .taskify_sec .input_block .input_sec {
+  border: 0;
+  padding: 15px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  width: calc(100% - 29px);
+  box-shadow: inset 0 0 5px black;
+}
+.taskify_container .taskify_sec .input_block .input_sec:focus {
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.3);
+  outline: 0;
+}
+.taskify_container .taskify_sec .input_block .go_btn {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 7px;
+  border-radius: 100%;
+  border: 0;
+  font-size: 16px;
+  background-color: rgb(72, 139, 165);
+  color: #fff;
+}
+.taskify_container .taskify_sec .todoall_data_block {
+  z-index: 2;
+}
+.taskify_container .taskify_sec .todoall_data_block .single_todo_block {
+  display: flex;
+  background-color: rgb(238, 216, 143);
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px;
+}
+.taskify_container .taskify_sec .todoall_data_block .single_todo_block .single_icon {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=all.css.map */
